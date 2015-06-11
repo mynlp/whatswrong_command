@@ -37,8 +37,10 @@ The other contains all the classes including dependent libraries, so you don't n
 
 # Usage
 
+Use `java -jar` command to run the command. `jar-with-dependencies` is useful.
+
 ```
-java -jar whatswrong_command-x.x.x-jar-with-dependencies.jar DATA [GOLD] [--config FILE] [--output FILE] --type
+java -jar whatswrong_command-x.x.x-jar-with-dependencies.jar DATA [GOLD] [--config FILE] [--output FILE] --type TYPE
 ``` 
 
 Opiotns:
