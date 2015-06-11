@@ -1,0 +1,16 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+#foreach($result in $results)
+<h2>$result.number: $result.text</h2>
+<img src="$result.image">
+#end
+
+<footer>
+Created: $created
+</footer>
+</body>
+</html>

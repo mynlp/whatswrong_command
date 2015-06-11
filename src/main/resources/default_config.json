@@ -1,0 +1,17 @@
+{
+  "format": {
+	"anti_aliasing": true,
+	"curved": true,
+	"height_factor": null,
+	"margin": null,
+	"edge_type_color": {
+	  "dep:FP": "#FF0000",
+	  "dep:FN": "#0000FF"
+	}
+  },
+  "filter": {
+    "edge_type": ["dep", "role", "sense", "ner", "chunk", "pos", "align"],
+    "edge_type_postfix": ["FP", "FN"],
+	"token_forbidden_property": ["Pos", "Feats"]
+  }
+}
