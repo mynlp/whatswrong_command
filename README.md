@@ -44,17 +44,12 @@ java -jar whatswrong_command-x.x.x-jar-with-dependencies.jar DATA [GOLD] [--conf
 ``` 
 
 Opiotns:
- DATA                                   : Path to data to show
- GOLD                                   : Path to gold data to compare
- --config FILE                          : Config file path (use default config
-                                          if not specified)
- --output FILE                          : Path to output directory (default:
-                                          output)
- --type [CONLL2000 | CONLL2002 |        : Select data type
- CONLL2003 | CONLL2004 | CONLL2005 |
- CONLL2006 | CONLL2008 | CONLL2009 |
- SEXPR]
 
+- `DATA`: Path to data to show
+- `GOLD`: Path to gold data to compare (optional)
+- `--config FILE`: Config file path (use default config if not specified)
+- `--output FILE`: Path to output directory (default: `output`)
+- `--type TYPE`: Select data type (`CONLL2000`, `CONLL2002`, `CONLL2003`, `CONLL2004`, `CONLL2005`, `CONLL2006`, `CONLL2008`, `CONLL2009`, `SEXPR`)
 
 This is a directory structure of a result.
 When you specify only DATA, the result contains all images of results.
